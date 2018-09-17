@@ -1,0 +1,65 @@
+body {
+    top:0;
+    left:0;
+}
+
+/* Navbar Style */
+.navbar-dark, .bg-dark {
+    background-color: transparent !important;
+}
+
+.navbar-dark .navbar-nav > .nav-link, .nav-item {
+    color: #000000;
+}
+/* Section Styles */
+.section-body {
+    width: 100vw;
+    height: 100vh
+}
+
+.section-body-text {
+    z-index: 15;
+    text-align: center;
+    width:100%;
+    position: absolute;
+    margin:0 auto;
+    top:40%;
+}
+.section-body-title {
+    color:#fff;
+    font-size: 4em;
+}
+
+.section-body-subtitle {
+    color:#fff;
+    font-size: 2em;
+}
+
+.section-title {
+    width:100vw;
+    text-align: center;
+    padding:25px;
+}
+
+
+/* overlay styles */
+.overlay {
+    width:100vw;
+    height:100vh;
+    background-color: rgba(90, 127, 116, 0.9);
+    z-index: 10;
+    position:absolute;
+}
+
+/*Image styles */
+.img-full-screen {
+    width: 100vw;
+    height:100vh;
+    position:absolute
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color:#D5AF81;
+    border-color:#D5AF81;
+}
